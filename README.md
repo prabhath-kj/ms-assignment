@@ -19,7 +19,7 @@ The design provided was sourced from Figma. You can view the design [here]()
 - **Responsive Design**: The application is fully responsive, designed to work on mobile, tablet, and desktop devices.
 - **Optimized Images**: **sharp** is used for processing and optimizing images to provide a faster, smoother user experience.
 - **Icons**: React Icons are used for adding various icons to the user interface.
-- **Next.js Features**: The project takes advantage of Next.js features like static generation, image optimization, and API routes.
+- **Next.js Features**: The project takes advantage of Next.js features like static generation, image optimization.
 
 ## Setup Instructions
 
