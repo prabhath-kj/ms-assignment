@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { IoIosPlay } from "react-icons/io";
 import React from "react";
 import HERO2 from '../../../public/images/HERO2.png';
+import PlayButton from "../ui/PlayButton";
 
 const Feature = () => {
     return (
@@ -23,11 +23,7 @@ const Feature = () => {
 
                         {/* Hero Text */}
                         <div className="flex flex-col gap-2">
-                            <div>
-                                <button className="rounded-full bg-white p-2">
-                                    <IoIosPlay className="w-6 h-6 text-black" />
-                                </button>
-                            </div>
+                            <PlayButton />
 
                             <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
                                 Lorem ipsum dolor sit amet.

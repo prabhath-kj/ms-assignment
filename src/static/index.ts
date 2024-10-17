@@ -1,6 +1,11 @@
 import IMG1 from "@/../public/images/image 269.png"
 import IMG2 from "@/../public/images/image 271.png"
 import IMG3 from "@/../public/images/image 272.png"
+import G1 from "@/../public/images/G1.png"
+import G2 from "@/../public/images/G2.png"
+import G3 from "@/../public/images/G3.png"
+import G4 from "@/../public/images/G4.png"
+
 
 export const links = [
     { href: '#about', label: 'About Us' },
@@ -51,5 +56,70 @@ export const links = [
       date: '21 March 2023',
       title: 'dictumst. Fusce non venenatis velit. Proin luctus malesuada mauris vitae mattis',
       imgSrc: IMG3
+    },
+  ];
+
+  export const cardData = [
+    {
+      number: "01",
+      title: "Lorem ipsum dolor sit amet, consectetur",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit.",
+      bgColor: "bg-[#ECFAFF]",
+      textColor: "text-black",
+      hoverBgColor: "bg-[#003249]",
+      hoverTextColor: "text-white",
+    },
+    {
+      number: "02",
+      title: "Lorem ipsum dolor sit amet, consectetur",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit.",
+      bgColor: "bg-[#ECFAFF]",
+      textColor: "text-black",
+      hoverBgColor: "bg-[#003249]",
+      hoverTextColor: "text-white",
+    },
+    {
+      number: "03",
+      title: "Lorem ipsum dolor sit amet, consectetur",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit.",
+      bgColor: "bg-[#003249]",
+      textColor: "text-white",
+      hoverBgColor: "bg-[#ECFAFF]",
+      hoverTextColor: "text-black",
+    },
+  ];
+  
+
+  export const gallary = [
+    {
+      id: 1,
+      title: 'Consectetur adipiscing elit',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst.',
+      imgSrc: G1,
+    },
+    {
+      id: 2,
+      title: 'Consectetur adipiscing elit',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst.',
+      imgSrc: G2,
+    },
+    {
+      id: 3,
+      title: 'Consectetur adipiscing elit',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst.',
+      imgSrc:G3,
+    },
+    {
+      id: 4,
+      title: 'Consectetur adipiscing elit',
+      description:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst.',
+      imgSrc: G4,
     },
   ];
