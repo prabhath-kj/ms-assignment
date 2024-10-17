@@ -1,5 +1,3 @@
-# Front-end Developer Machine Test - Next.js
-
 ## Project Overview
 
 
