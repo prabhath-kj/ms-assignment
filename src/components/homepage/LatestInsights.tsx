@@ -42,7 +42,7 @@ const LatestInsights = () => {
 
       <div className="relative">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {insights.slice(currentIndex, currentIndex + 3).map((insight, index) => (
+          {insights.slice(currentIndex, currentIndex + 3).map((insight) => (
             <div key={insight.id} className="relative bg-gray-100 shadow-lg rounded-lg overflow-hidden">
               <div className="relative w-full h-64 md:h-80">
                 <Image
