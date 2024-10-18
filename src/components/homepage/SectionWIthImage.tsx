@@ -33,7 +33,7 @@ const SectionWithImageCard = () => {
                         </p>
                     </div>
 
-                    <div className="min-w-60 mt-8 md:mt-0 md:ml-8 relative bg-white rounded-md shadow-lg overflow-hidden">
+                    <div className="min-w-80 mt-8 md:mt-0 md:ml-8 relative bg-white rounded-md shadow-lg overflow-hidden">
                         <h1 className="text-black text-lg text-start mt-4 px-4 py-2">Lorem Ipsum?</h1>
 
                         <div className="relative w-full h-64 md:h-80">

@@ -67,8 +67,7 @@ export const links = [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit.",
       bgColor: "bg-[#ECFAFF]",
       textColor: "text-black",
-      hoverBgColor: "bg-[#003249]",
-      hoverTextColor: "text-white",
+      
     },
     {
       number: "02",
@@ -77,18 +76,18 @@ export const links = [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit.",
       bgColor: "bg-[#ECFAFF]",
       textColor: "text-black",
-      hoverBgColor: "bg-[#003249]",
-      hoverTextColor: "text-white",
+
     },
     {
       number: "03",
       title: "Lorem ipsum dolor sit amet, consectetur",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis velit nulla. In hac habitasse platea dictumst. Fusce non venenatis velit.",
-      bgColor: "bg-[#003249]",
-      textColor: "text-white",
-      hoverBgColor: "bg-[#ECFAFF]",
-      hoverTextColor: "text-black",
+        bgColor: "bg-[#ECFAFF]",
+        textColor: "text-black",
+        // bgColor: "bg-[#002A3A]",
+      // textColor: "text-white",
+     
     },
   ];
   
