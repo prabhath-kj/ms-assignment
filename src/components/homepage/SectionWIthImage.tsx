@@ -19,7 +19,7 @@ const SectionWithImageCard = () => {
                 />
 
                 {/* Content Section */}
-                <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-12">
+                <div className="absolute inset-0 flex flex-col md:flex-row items-center justify-center md:justify-between px-4  md:px-6 lg:px-12 xl:px-22 2xl:px-44">
                     {/* Text Section */}
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl font-bold text-black mb-4">

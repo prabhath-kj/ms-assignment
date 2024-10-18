@@ -22,7 +22,7 @@ const Navbar = () => {
         : "bg-transparent ";
 
     return (
-        <nav className={`fixed w-full z-50 top-0 text-white shadow-sm ${navbarClasses}`}>
+        <nav className={`fixed w-full z-50 top-0 text-white shadow-sm ${navbarClasses} px-4  md:px-6 lg:px-12 xl:px-22 2xl:px-44 `}>
             <div className="container mx-auto flex justify-between items-center p-4">
                 <div className="text-xl font-bold">DEMO</div>
                 <div className="hidden md:flex space-x-6">

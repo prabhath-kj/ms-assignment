@@ -15,7 +15,7 @@ const Hero = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#002B3A00] to-[hsla(0,0%,12%,1)] opacity-40"></div>
 
-            <div className="absolute inset-0 flex flex-col justify-end items-start p-6 md:p-10 lg:p-20">
+            <div className="absolute inset-0 flex flex-col justify-end items-start px-4 md:px-6 lg:px-12 xl:px-22 2xl:px-44">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight">
                     Lorem ipsum dolor sit amet
                 </h1>

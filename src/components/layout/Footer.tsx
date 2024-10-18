@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram } from 're
 
 const Footer = () => {
     return (
-        <footer className="bg-[#002A3A] text-white py-10">
+        <footer className="bg-[#002A3A] text-white py-10 px-4  md:px-6 lg:px-12 xl:px-22 2xl:px-44">
             <div className="px-4">
                 {/* Horizontal Menu for Quick Links */}
                 <div className="flex flex-wrap justify-start space-x-4 md:space-x-8 mb-8 text-sm md:text-base">
